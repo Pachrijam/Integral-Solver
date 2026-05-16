@@ -84,8 +84,8 @@ Hello! Welcome to Integral Solver!
 ----------------------------------------------------------------
 Enter 'D' for definite integral or 'I' for indefinite integral: D
 Is your equation Exponential (e), Trig-based (t), Logarithmic (l), Polynomial (p), or a Constant (c) ?: T
-Enter lower bound: 0
-Enter upper bound: pi
+Enter lower bound: -0.25pi
+Enter upper bound: 3pi
 Enter the integrand with respect to 'x': sin(x)
 ```
 
@@ -93,8 +93,8 @@ Enter the integrand with respect to 'x': sin(x)
 
 ```text
 ----------------------------------------------------------------
-Input: Definite integral of sin(x) dx, from 0.0 to 3.1415926535
-Output: 2.0
+Input: Definite integral of sin(x) dx, from -0.25pi to 3pi
+Output: 1.7071067811865475
 ----------------------------------------------------------------
 Thank you for using Integral Solver!
 ```
