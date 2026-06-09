@@ -13,7 +13,7 @@ public class IntegralSolverMain {
             System.out.print("Is your equation Exponential (e), Trig-based (t), Logarithmic (l), Polynomial (p), or a Constant (c) ?: ");
             String type = scan.nextLine();
             if (!type.toLowerCase().equals("e") && !type.toLowerCase().equals("t") && !type.toLowerCase().equals("l") && !type.toLowerCase().equals("p") && !type.toLowerCase().equals("c")) {
-                System.out.println("Sorry! That's invalid! Please try again.");
+                System.out.println("Invalid function type. Please enter one of: e (Exponential), t (Trig), l (Logarithmic), p (Polynomial), c (Constant)");
             } else {
                 System.out.print("Enter lower bound: ");
                 String lowerBound = scan.nextLine();
@@ -30,7 +30,7 @@ public class IntegralSolverMain {
             System.out.print("Is your equation Exponential (e), Trig-based (t), Logarithmic (l), Polynomial (p), or a Constant (c) ?: ");
             String type = scan.nextLine();
             if (!type.toLowerCase().equals("e") && !type.toLowerCase().equals("t") && !type.toLowerCase().equals("l") && !type.toLowerCase().equals("p") && !type.toLowerCase().equals("c")) {
-                System.out.println("Sorry! That's invalid! Please try again.");
+                System.out.println("Invalid function type. Please enter one of: e (Exponential), t (Trig), l (Logarithmic), p (Polynomial), c (Constant)");
             } else {
                 System.out.print("Enter the integrand with respect to 'x': ");
                 String contents = scan.nextLine();
@@ -40,7 +40,7 @@ public class IntegralSolverMain {
                 System.out.println("----------------------------------------------------------------\nThank you for using Integral Solver!");
             }
         } else {
-            System.out.println("Sorry! That's invalid. Please try again.");
+            System.out.println("Invalid selection. Please enter 'D' for definite or 'I' for indefinite (case-insensitive). Please try again.");
         }
 
         scan.close();
