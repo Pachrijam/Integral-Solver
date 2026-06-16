@@ -1,4 +1,4 @@
-package com.pachrijam.integrals;
+package main.java.com.pachrijam.integrals;
 
 import java.util.function.DoubleUnaryOperator;
 
