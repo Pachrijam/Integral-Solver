@@ -153,7 +153,3 @@ Thank you for using Integral Solver!
 * Enhance error handling and validation
 
 ---
-
-## License
-
-This project is open source and available for educational and personal use.
